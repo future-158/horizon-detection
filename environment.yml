@@ -1,0 +1,25 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - zarr
+  - xarray
+  - pip
+  - pip:
+    - joblib
+    - scikit-learn
+    - onnxruntime
+    - skl2onnx
+    - opencv-python
+    - pandas
+    - matplotlib
+    - ipykernel
+    - tqdm
+    - gradio
+    - omegaconf
+    - joblib
+    - opencv-contrib-python
+    - imageio
+    - scikit-image
+    - gradio

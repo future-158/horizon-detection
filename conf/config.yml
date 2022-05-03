@@ -1,0 +1,6 @@
+catalogue:
+  img_dir: data/image
+  out_dir: data/superimposed
+
+params:
+  window: 3d # moving average window. value pd.rolling can understands.
